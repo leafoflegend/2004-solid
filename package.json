@@ -1,0 +1,17 @@
+{
+  "name": "2004-solid",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile:watch": "tsc --watch --noEmitOnError",
+    "start:watch": "node-dev --respawn index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "node-dev": "^5.2.0",
+    "typescript": "^3.9.7"
+  }
+}
